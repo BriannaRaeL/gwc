@@ -1,0 +1,109 @@
+
+
+h1{
+  color: white;
+  font-size: 50px;
+  font-family: 'Times New Roman', cursive;
+  position: relative;
+  left: 250px
+}
+h1 {
+    letter-spacing: 10px;
+
+}
+
+h4{
+  color: #0066ff;
+  font-size: 15px;
+  font-family: 'Times New Roman', cursive;
+}
+h5,h2{
+  color: white;
+}
+#l{
+  color: purple;
+position: relative;
+  left: -660;
+}
+.s{
+  color: blue ;
+}
+
+#son{
+  position: relative;
+  left: 300px;
+}
+
+#h{
+  position: relative;
+  left: 400px;
+}
+
+
+.be{
+  color: red ;
+}
+
+.hi{
+  color: white;
+}
+body {
+    background-color: black;
+}
+p.normal {
+    border: 2px solid pink;
+}
+
+
+ul {
+    list-style-type: none;
+    position: relative;
+    left: 425px;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    background-color:;
+
+}
+li {
+    display: inline;
+    color: #000;
+    padding: 10px 10px;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: pink;
+    li a:hover:not(.active) {
+        background-color: #555;
+        color: pink;
+    }
+
+
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 300px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: pink}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
